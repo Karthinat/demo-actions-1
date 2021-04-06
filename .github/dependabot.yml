@@ -36,3 +36,10 @@ updates:
     schedule:
       interval: "daily"
     open-pull-requests-limit: 10
+  
+  # Maintain dependencies for c# with nuget
+  - package-ecosystem: "nuget"
+    directory: "/dependencies"
+    schedule:
+      interval: "daily"
+    open-pull-requests-limit: 10
